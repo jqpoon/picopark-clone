@@ -2,73 +2,22 @@
 
 body {
   background-color: white;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
   margin: 0;
-  min-height: 100vh;
-}
-
-/* Action buttons */
-
-.actions {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  width: 720px;
-  height: 100px;
-}
-
-.action {
-  color: darkgray;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 300;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 20px;
-  width: 120px;
-}
-
-.action:hover {
-  background-color: darkgray;
-  color: white;
-  font-weight: 700;
-}
-
-.action[href=""] {
-  display: none;
+  height: 100%;
 }
 
 /* Connect Four board */
 
 .board {
-  background-color: blue;
-  display: flex;
-  flex-direction: row;
-  padding: 0 10px;
-  position: relative;
-}
-
-.board::before,
-.board::after {
-  background-color: blue;
-  content: "";
-  height: 720px;
-  width: 20px;
-  position: absolute;
-}
-
-.board::before {
-  left: -20px;
-}
-
-.board::after {
-  right: -20px;
+  background-color: rgb(152, 221, 202);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
 }
 
 .column {
@@ -81,25 +30,17 @@ body {
   border-radius: 50%;
   width: 80px;
   height: 80px;
-  margin: 10px 0;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  touch-action: manipulation;
+}
+
+.content {
+  flex: 0 0 20px;
 }
 
 .empty {
   background-color: white;
-}
-
-.column:hover .empty {
-  background-color: lightgray;
-}
-
-.column:hover .empty ~ .empty {
-  background-color: white;
-}
-
-.red {
-  background-color: red;
-}
-
-.yellow {
-  background-color: yellow;
 }
