@@ -1,6 +1,6 @@
 # Picopark Clone (Name WIP)
 
-A game that is similar to Pico Park, but uses phones as controllers instead. 
+A game that is similar to Pico Park, but uses phones as controllers instead.
 
 ## Dependencies
 - WIP
