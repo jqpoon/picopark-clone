@@ -10,9 +10,9 @@ A game that is similar to Pico Park, but uses phones as controllers instead.
 
 ## Todo
 ### Minimum Viable Product
-- [ ] Set up webpack to route differently for clients and servers
-    - [ ] `/game` - Actual Phaser game that displays a common screen
-    - [ ] `/control` - Path for users to connect to and control their characters
+- [x] Set up webpack to route differently for clients and servers
+    - [x] `/game` - Actual Phaser game that displays a common screen
+    - [x] `/player` - Path for users to connect to and control their characters
 - [ ] Set up server/client for listening to user inputs using web sockets
     - Should be done in JS so that it can be hosted together with the game
     - Need to look into how websockets work on JS
