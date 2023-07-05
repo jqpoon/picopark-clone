@@ -1,3 +1,4 @@
+import './connect4.css'
 import { createBoard } from "./connect4.js";
 
 window.addEventListener("DOMContentLoaded", () => {

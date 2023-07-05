@@ -1,9 +1,0 @@
-https://benpaulhanna.com/building-a-backbonejs-project-with-webpack.html
-
-https://github.com/jerrysu/backbone-webpack-example
-
-https://medium.com/@somebody32/how-to-split-your-apps-by-routes-with-webpack-36b7a8a6231
-
-http://phaser.io/tutorials/making-your-first-phaser-3-game/part8
-
-https://github.com/jqpoon/picopark-clone
